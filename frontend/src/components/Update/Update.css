@@ -1,0 +1,53 @@
+/* Style for the form container */
+.form_one{
+  height: 596px;
+  width: 509px;
+  /* margin: 137px auto; */
+  /* padding: 223px; */
+  background-image: url(https://i.pinimg.com/564x/fc/30/72/fc307259ede6e6420d9cf95852a0c990.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border: 10px solid #bc9d70;
+  border-radius: -9px;
+  box-shadow: -3px 31px 30px rgba(0, 0, 1, 1);
+
+}
+  /* Style for labels */
+  label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+  
+  /* Style for input fields and textarea */
+  .UpdInp[type="text"],
+  .UpdInp[type="number"],
+  textarea {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  .UpdInp{
+    width: 200%;
+  }
+  
+  /* Style for the Update button */
+  button[type="submit"] {
+    background-color: #dac19d;
+    color: black;
+    border: none;
+    padding: 6px 122px;
+    border-radius: 1px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #efbae8;
+  }
+  

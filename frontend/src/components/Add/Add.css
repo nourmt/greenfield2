@@ -1,0 +1,85 @@
+/* Style for the entire form container */
+form div {
+  margin: 13px -23px;
+}
+.form_ttt{ 
+  height: 596px;
+  width: 509px;
+  /* margin: 137px auto; */
+  /* padding: 223px; */
+  background-image: url(https://i.pinimg.com/564x/fc/30/72/fc307259ede6e6420d9cf95852a0c990.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border: 10px solid #bc9d70;
+  border-radius: -9px;
+  box-shadow: -3px 31px 30px rgba(0, 0, 1, 1);
+
+}
+user agent stylesheet
+div 
+
+/* Style for the form heading */
+h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Style for form input fields and labels */
+form div {
+  margin: 10px 0;
+}
+
+label {
+  font-weight: bold;
+  font-size: 16px;
+}
+.AddInp
+{
+  font-size: 18px;
+  transition: border-color 0.3s ease;
+  width: 206px;
+  height: 38px;
+}
+/* .AddInp
+[type="text"], 
+.AddInp[type="number"], textarea {
+  width: 133%;
+  padding: 9px;
+  border: 2px solid;
+  border-radius: -1px;
+  font-size: 18px;
+  transition: border-color 0.3s ease;
+}
+.AddInp[type="text"]:focus, .AddInp[type="number"]:focus, textarea:focus {
+  border-color: #0078d4;
+}
+
+/* Style for the file AddInp */
+.AddInp[type="file"] {
+  width: 100%;
+  padding: 10px;
+} */
+
+/* Style for the Add button */
+button[type="submit"] {
+  background-color: #bc9d70;
+  color: #000000;
+  border: none;
+  padding: 16px 252px;
+  border-radius: -29px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: background-color 0.3s ease;
+}
+button[type="submit"]:hover {
+  background-color:#bc9d70;
+}
+
+/* Style for the uploaded image */
+.uploaded-image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+}

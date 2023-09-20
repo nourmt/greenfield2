@@ -1,0 +1,261 @@
+
+
+   .frame {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+    position: relative;
+  }
+  
+  .frame .div {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    display: inline-flex;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .frame .text-wrapper {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--heading-36px-medium-font-family);
+    font-weight: var(--heading-36px-medium-font-weight);
+    color:white;
+    font-size: var(--heading-36px-medium-font-size);
+    letter-spacing: var(--heading-36px-medium-letter-spacing);
+    line-height: var(--heading-36px-medium-line-height);
+    white-space: nowrap;
+    font-style: var(--heading-36px-medium-font-style);
+  }
+  
+  .frame .text-wrapper-2 {
+    position: relative;
+    width: fit-content;
+    font-family: var(--title-16px-regular-font-family);
+    font-weight: var(--title-16px-regular-font-weight);
+    color: var(--text-2);
+    font-size: var(--title-16px-regular-font-size);
+    letter-spacing: var(--title-16px-regular-letter-spacing);
+    line-height: var(--title-16px-regular-line-height);
+    white-space: nowrap;
+    font-style: var(--title-16px-regular-font-style);
+  }
+  
+  .frame .div-2 {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    display: inline-flex;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .frame .div-3 {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    display: inline-flex;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .frame .div-4 {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    display: inline-flex;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .frame .text-wrapper-3 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    opacity: 0.4;
+    font-family: var(--title-16px-regular-font-family);
+    font-weight: var(--title-16px-regular-font-weight);
+    color: var(--text-2);
+    font-size: var(--title-16px-regular-font-size);
+    letter-spacing: var(--title-16px-regular-letter-spacing);
+    line-height: var(--title-16px-regular-line-height);
+    white-space: nowrap;
+    font-style: var(--title-16px-regular-font-style);
+  }
+  
+  .frame .under-line {
+    position: relative;
+    width: 370px;
+    height: 1px;
+    opacity: 0.5;
+    /* background-image: url(./img/image.svg); */
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .frame .under-line-2 {
+    position: relative;
+    width: 370px;
+    height: 1px;
+    opacity: 0.5;
+    /* background-image: url(./img/line-1-2.svg); */
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .frame .under-line-3 {
+    position: relative;
+    width: 370px;
+    height: 1px;
+    opacity: 0.5;
+    /* background-image: url(./img/line-1.svg); */
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .frame .div-5 {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    display: inline-flex;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .frame .button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 16px 122px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: var(--button-2);
+    border-radius: 4px;
+    all: unset;
+    box-sizing: border-box;
+  }
+  
+  .frame .view-all-products {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--title-16px-medium-font-family);
+    font-weight: var(--title-16px-medium-font-weight);
+    color: var(--text);
+    font-size: var(--title-16px-medium-font-size);
+    letter-spacing: var(--title-16px-medium-letter-spacing);
+    line-height: var(--title-16px-medium-line-height);
+    white-space: nowrap;
+    font-style: var(--title-16px-medium-font-style);
+  }
+  
+  .frame .div-6 {
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    display: inline-flex;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .frame .google-sign-up {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 16px 86px;
+    position: relative;
+    flex: 0 0 auto;
+    border-radius: 4px;
+    border: 1px solid;
+    border-color: #00000066;
+  }
+  
+  .frame .div-7 {
+    align-items: flex-start;
+    gap: 16px;
+    display: inline-flex;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .frame .icon-google {
+    position: relative;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .frame .text-wrapper-4 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--title-16px-regular-font-family);
+    font-weight: var(--title-16px-regular-font-weight);
+    color: var(--text-2);
+    font-size: var(--title-16px-regular-font-size);
+    letter-spacing: var(--title-16px-regular-letter-spacing);
+    line-height: var(--title-16px-regular-line-height);
+    white-space: nowrap;
+    font-style: var(--title-16px-regular-font-style);
+  }
+  
+  .frame .div-8 {
+    align-items: center;
+    gap: 16px;
+    display: inline-flex;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .frame .text-wrapper-5 {
+    position: relative;
+    width: fit-content;
+    opacity: 0.7;
+    font-family: var(--title-16px-regular-font-family);
+    font-weight: var(--title-16px-regular-font-weight);
+    color: var(--text-2);
+    font-size: var(--title-16px-regular-font-size);
+    letter-spacing: var(--title-16px-regular-letter-spacing);
+    line-height: var(--title-16px-regular-line-height);
+    white-space: nowrap;
+    font-style: var(--title-16px-regular-font-style);
+  }
+  
+  .frame .div-9 {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    display: inline-flex;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .frame .text-wrapper-6 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    opacity: 0.7;
+    font-family: var(--title-16px-medium-font-family);
+    font-weight: var(--title-16px-medium-font-weight);
+    color: var(--text-2);
+    font-size: var(--title-16px-medium-font-size);
+    letter-spacing: var(--title-16px-medium-letter-spacing);
+    line-height: var(--title-16px-medium-line-height);
+    white-space: nowrap;
+    font-style: var(--title-16px-medium-font-style);
+  }
+  
+  .frame .under-line-4 {
+    position: relative;
+    width: 47px;
+    height: 1px;
+    opacity: 0.5;
+    /* background-image: url(./img/line-1-3.svg); */
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  

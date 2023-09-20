@@ -1,0 +1,35 @@
+/* Card.css */
+
+.card-container {
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 16px;
+    background-color: #fff;
+  }
+  
+  .card-pay {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .name-products {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .description {
+    font-size: 14px;
+  }
+  
+  .price-products {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 8px;
+  }
+  
+  .price-product {
+    color: green;
+    font-size: 16px;
+    margin-top: 8px;
+  }
+  

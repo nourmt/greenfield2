@@ -1,0 +1,206 @@
+/* Additional CSS for a different look */
+
+/* Style for the container with a different background color */
+.products-container-alt {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f0f0f0; /* Replace with your desired background color */
+}
+
+/* Style for each product item with a different card-like design */
+.product-item-alt {
+  width: calc(33.33% - 20px);
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #e0e0e0; /* Replace with your desired border color */
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.product-item-alt img {
+  max-width: 100%;
+  height: auto;
+}
+
+.product-item-alt h2 {
+  margin-top: 10px;
+  font-size: 1.4rem; /* Increase font size for the title */
+}
+
+.product-item-alt p {
+  margin-top: 10px; /* Increase spacing between description and title */
+  font-size: 1.1rem; /* Increase font size for the description */
+}
+
+
+.product-item-alt button {
+  margin-top: 10px;
+  padding: 20px 60px; /* Increase button padding */
+  background-color: 0#ff00d4;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+
+.product-item-alt button:hover {
+  background-color: #0056b3;
+}
+
+/* //////////////////////// */
+
+.cart {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  position: relative;
+}
+
+.cart .div {
+  position: relative;
+  width: 270px;
+  height: 250px;
+  background-color: var(--secondary);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.cart .overlap-group {
+  position: absolute;
+  width: 270px;
+  height: 41px;
+  top: 209px;
+  left: 0;
+  background-color: #000000;
+  border-radius: 0px 0px 4px 4px;
+}
+
+.cart .frame {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  top: 8px;
+  left: 84px;
+}
+
+.cart .img {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.cart .text-wrapper {
+  position: relative;
+  width: fit-content;
+  font-family: var(--title-12px-regular-font-family);
+  font-weight: var(--title-12px-regular-font-weight);
+  color: #ffffff;
+  font-size: var(--title-12px-regular-font-size);
+  letter-spacing: var(--title-12px-regular-letter-spacing);
+  line-height: var(--title-12px-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--title-12px-regular-font-style);
+}
+
+.cart .overlap {
+  position: absolute;
+  width: 218px;
+  height: 190px;
+  top: 12px;
+  left: 40px;
+}
+
+.cart .fill-eye-wrapper {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  position: absolute;
+  top: 0;
+  left: 184px;
+}
+
+.cart .fill-eye {
+  position: relative;
+  width: 34px;
+  height: 34px;
+  background-color: #ffffff;
+  border-radius: 17px;
+}
+
+.cart .icon-delete {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 5px;
+  left: 5px;
+}
+
+.cart .gp-prd-wrapper {
+  position: absolute;
+  width: 190px;
+  height: 180px;
+  top: 10px;
+  left: 0;
+}
+
+.cart .gp-prd {
+  position: absolute;
+  width: 178px;
+  height: 150px;
+  top: 15px;
+  left: 6px;
+}
+
+.cart .frame-2 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.cart .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--title-16px-medium-font-family);
+  font-weight: var(--title-16px-medium-font-weight);
+  color: #000000;
+  font-size: var(--title-16px-medium-font-size);
+  letter-spacing: var(--title-16px-medium-letter-spacing);
+  line-height: var(--title-16px-medium-line-height);
+  white-space: nowrap;
+  font-style: var(--title-16px-medium-font-style);
+}
+
+.cart .div-wrapper {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 12px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.cart .text-wrapper-3 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--title-16px-medium-font-family);
+  font-weight: var(--title-16px-medium-font-weight);
+  color: var(--secondary-2);
+  font-size: var(--title-16px-medium-font-size);
+  letter-spacing: var(--title-16px-medium-letter-spacing);
+  line-height: var(--title-16px-medium-line-height);
+  white-space: nowrap;
+  font-style: var(--title-16px-medium-font-style);
+}
+

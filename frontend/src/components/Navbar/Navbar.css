@@ -1,0 +1,38 @@
+/* Navbar.css */
+
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center the links horizontally */
+  }
+  
+  li {
+    margin: 0 20px;
+  }
+  
+  /* Style the links */
+  .Link {
+    text-decoration: none;
+    color: #333; /* Text color */
+    font-weight: bold; /* Make the text bold */
+    font-size: 20px; /* Adjust the font size */
+    transition: color 0.3s; /* Add a smooth color transition on hover */
+  
+  }
+
+  .logo{
+    width: 100px;
+    height: 50px;
+    margin-left: 300px;
+    margin-top: -50px;
+  }
+  
+  .Link:hover {
+    color: #ff9900; /* Text color on hover */
+  }
+
+  
+  
